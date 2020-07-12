@@ -25,7 +25,6 @@ body {
     letter-spacing: 0.03em;
     color: var(--main-color);
 }
-/*Хедер*/
 .list {
     list-style: none;
 }
@@ -37,7 +36,6 @@ h2,
 h3 {
   margin: 0;
 }
-
 img {
   display: block;
   max-width: 100%;
@@ -50,15 +48,14 @@ ul {
 .container {
     width: 1200px;
     padding-right: 15px;
-    padding-left: 15px;
+    padding-left: 15px; 
     margin-right: auto;
     margin-left: auto;
-    outline: 2px solid red;
 }
+/*Хедер*/
  .header .container {
     display: flex;
 } 
-
 .navigation-list {
     display: flex;
 }
@@ -123,6 +120,7 @@ ul {
 }
 /*Секция герой*/
 .hero {
+    margin-bottom: 94px;
     text-align: center;
 }
 .hero-title {
@@ -160,7 +158,6 @@ ul {
 }
 /*Преимущества*/
 .advantage {
-    margin-top: 94px;
     margin-bottom: 94px;
 }
 .advantage-list {
@@ -185,12 +182,22 @@ ul {
     line-height: 1.71;
 }
 /*Напраления работы*/
+.work-direction {
+    margin-bottom: 94px;
+}
 .work-direction-title {
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     color: var(--title-color);
+}
+.work-direction-list{
+    display: flex;
+}
+.work-direction-list-item:not(:last-child) {
+    margin-right: 30px;
 }
 .work-direction-subtitle {
     font-weight: 700;
@@ -202,14 +209,30 @@ ul {
     background-color: rgba(47, 48, 58, 0.8);
 }
 /*Команда*/
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;
+}
+.team-list {
+    display: flex;
+}
 .team-title {
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     color: var(--title-color);
 }
+.team-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+.team-list-item-image {
+    margin-bottom: 30px;
+}
 .team-list-item-name {
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -217,11 +240,23 @@ ul {
     color: var(--title-color);
 }
 .team-list-item-position {
+    margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
 }
+.social-list {
+    display: flex;
+    justify-content: center;
+}
+.social-list-item:not(:last-child) {
+    margin-right: 34px;
+}
 /*Клиенты*/
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .clients-title {
     font-weight: 700;
     font-size: 36px;
