@@ -1,0 +1,203 @@
+:root {
+    --main-color: #757575;
+    --title-color: #212121;
+    --accent-color:#2196F3;
+    --secondary-color:#FFFFFF;
+    --main-font:"Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+}
+body {
+    background-color: var(--secondary-color);
+    font-family: var(--main-font);
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+/*Хедер*/
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.navigation-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+    color: var(--accent-color);
+}
+.header-mail-link,
+.header-tel-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+.header-mail-link:hover,
+.header-mail-link:focus,
+.header-tel-link:hover,
+.header-tel-link:focus {
+    color: var(--accent-color);
+}
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--title-color);
+}
+.logo .logo-item {
+    color: var(--accent-color);
+}
+/*Секция герой*/
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+ /*Задано свойство background-color для визуализации*/   
+    background-color: #d3d3d3;
+    color: var(--secondary-color) ;
+}
+.modal-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+    background-color: #F5F4FA;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
+}
+/*Преимущества*/
+.advantage-list-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+.advantage-list-text {
+    font-size: 14px;
+    line-height: 1.71;
+}
+/*Напраления работы*/
+.work-direction-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--title-color);
+}
+.work-direction-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    background-color: rgba(47, 48, 58, 0.8);
+}
+/*Команда*/
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--title-color);
+}
+.team-list-item-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--title-color);
+}
+.team-list-item-position {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+/*Клиенты*/
+.clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--title-color);
+}
+/*Футер контакты*/
+.footer {
+   background-color:#2F303A;
+}
+.logo-footer {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--secondary-color);
+}
+.logo-footer .logo-footer-item {
+    color: var(--accent-color);
+}
+.footer-map-link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--secondary-color)
+}
+.footer-mail-link,
+.footer-tel-link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-map-link:hover,
+.footer-map-link:focus,
+.footer-mail-link:hover,
+.footer-mail-link:focus,
+.footer-tel-link:hover,
+.footer-tel-link:focus {
+    font-style: normal;
+    color:var(--accent-color)
+}
+.social-links-block-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color:var(--secondary-color)
+}
+
+/*Секция с примерами работы*/
+.work-examples-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--title-color)
+}
+.work-examples-text {
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--main-color);
+}
+.work-examples-desc {
+    font-size: 18px;
+    line-height: 1.56;
+    color:var(--secondary-color);
+    background-color: var(--accent-color);
+    /*Задано свойство background-color для визуализации*/ 
+}
